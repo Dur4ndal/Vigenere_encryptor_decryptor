@@ -18,6 +18,11 @@ try:
 except ValueError:
         pass
 
+#Implementar de forma mais elegante
+#Handler de erro de base de cifra
+if ((len(plaintext)) != (len(ciphertext))):
+        exit()
+        
 #Vetor alfabeto
 base = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
