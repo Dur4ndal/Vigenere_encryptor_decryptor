@@ -70,6 +70,7 @@ def ataque(ciphertext, idioma):
                 spacing.append(j)
                 break
 
+    if max_key > len(ct): max_key = len(ct)
     max_mmc = 0
     key_len = 0
     for i in range(2, max_key + 1):
