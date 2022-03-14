@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
 #Cifrador/Decifrador baseado na cifra de Vigenere
-#Rodrigo Mamédio Arrelaro
-#190095164
+#Rodrigo Mamédio Arrelaro 190095164
+#Eduardo Xavier Dantas 190086530
 
 import sys
 
@@ -53,7 +53,7 @@ for C_ciphertext in ciphertext:
 
 #Debugger
 #       print ('Z {} ---- X value {} and Y value {}'.format(z,x,y))
-
+#Algoritimo de ataque sem chave
 def ataque(ciphertext, idioma):
     max_key = 20
     tolerance = 10
