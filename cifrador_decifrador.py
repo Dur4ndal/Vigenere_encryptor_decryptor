@@ -136,7 +136,7 @@ def ataque(ciphertext, idioma):
     for c in key: print(c, end='')
     print()
 
-print("Texto cifrado (portugues):")
+print("\nTexto cifrado (portugues):")
 ataque(input(), 1)
 print("\nTexto cifrado (ingles):")
 ataque(input(), 0)
