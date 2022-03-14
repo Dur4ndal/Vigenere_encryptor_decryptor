@@ -116,7 +116,7 @@ def ataque(ciphertext, idioma):
     for group in box:
         curr_key = ''
         min_dif = 10000
-        for i in range(26):
+        for i in range(26): #Roda por todo alfabeto procurando a menor diferença entra a frequencia das letras do grupo com sua probabilidade real
             aux = []
             for c in group:
                 if ord(c) - i >= ord('A'):
